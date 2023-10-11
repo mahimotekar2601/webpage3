@@ -1,0 +1,472 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+/* header section start */
+header {
+    background-color: navy;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header section end */
+
+/*banner section start */
+.banner {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg3.avif);
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.banner h1 {
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.banner h1 span {
+    font-size: 77px;
+    font-weight: 600;
+    display: block;
+}
+
+.banner aside {
+    background-color: navy;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px 22px;
+}
+
+
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button {
+    width: 100%;
+    margin: 7px;
+    height: 50px;
+    text-align: center;
+}
+
+/* banner section end */
+
+/* feature section start */
+.feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+
+.feature div {
+    width: 350px;
+}
+
+.feature img {
+    width: 350px;
+    height: 190px;
+}
+
+.feature h2,
+p {
+    color: #022D7C;
+}
+
+/* feature section end */
+
+/* About us section start */
+.about {
+    width: 100%;
+    background-color: #022D7C;
+    color: #fff;
+    text-align: center;
+    padding: 35px 170px;
+
+}
+
+.about p {
+    color: #fff;
+    font-weight: 100;
+}
+
+.about button {
+    color: #fff;
+    background-color: #022D7C;
+    padding: 10px 100px;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 20px;
+
+}
+
+/* About us section end */
+
+/* service section start */
+.service {
+    padding: 0px 100px;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.upper .content {
+    padding: 60px 0px 60px 75px;
+
+
+}
+
+.lower .content {
+    padding: 60px 40px 60px 0px;
+
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.content p {
+    color: black;
+
+}
+
+
+/* service section end */
+
+/* footer section start */
+footer {
+    background-color: #022D7C;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 60px;
+
+}
+
+footer p {
+    color: #fff;
+    padding-top: 35px;
+    font-weight: bolder;
+
+}
+
+/* footer section end */
+
+/* media query section start  */
+@media screen and (max-width:992px) {
+
+    header {
+        padding: 0px 70px;
+    }
+
+    .banner {
+        padding: 0px 70px;
+    }
+
+    .banner h1 {
+        font-size: 35px;
+    }
+
+    .banner h1 span {
+        font-size: 66px;
+    }
+
+    .banner aside {
+        margin-left: 70px;
+    }
+
+
+    .banner aside input[type],
+    .banner aside textarea,
+    .banner aside button {
+        height: 35px;
+    }
+
+    .feature {
+        padding: 30px 70px;
+    }
+
+    .feature div {
+        width: 260px;
+    }
+
+    .feature img {
+        width: 260px;
+        height: 190px;
+    }
+
+    .about {
+        padding: 25px 150px;
+
+    }
+
+    .about p {
+        font-weight: 100;
+    }
+
+    .about button {
+        padding: 7px 90px;
+        margin: 15px;
+
+    }
+
+    .service {
+        padding: 0px 80px;
+    }
+
+    .upper .content {
+        padding: 60px 0px 60px 70px;
+    }
+
+    .lower .content {
+        padding: 60px 40px 50px 0px;
+    }
+
+    .service .image img {
+        height: 310px;
+        width: 410px;
+    }
+
+    footer {
+        height: 60px;
+        margin-top: 40px;
+
+    }
+
+    footer p {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    header {
+        padding: 0px 50px;
+        font-size: 13px;
+    }
+
+    .banner {
+        padding: 0px 50px;
+        height: 450px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    .banner h1 span {
+        font-size: 55px;
+    }
+
+    .banner aside {
+        padding: 10px 22px;
+        margin-left: 50px;
+    }
+
+    .banner aside h2 {
+        font-size: larger;
+    }
+
+    .banner aside input[type],
+    .banner aside textarea,
+    .banner aside button {
+        margin: 5px;
+        height: 25px;
+    }
+
+    .feature {
+        padding: 30px 50px;
+    }
+
+    .feature div {
+        width: 217px;
+    }
+
+    .feature img {
+        width: 217px;
+        height: 150px;
+    }
+
+    .about {
+        padding: 20px 120px;
+
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .about h2 {
+        font-size: larger;
+
+    }
+
+    .about button {
+        padding: 5px 70px;
+        margin: 15px;
+
+    }
+
+    .service {
+        padding: 0px 50px;
+    }
+
+    .upper .content {
+        padding: 25px 0px 20px 40px;
+    }
+
+    .lower .content {
+        padding: 25px 40px 20px 0px;
+    }
+
+    .service .image img {
+        height: 250px;
+        width: 330px;
+    }
+
+    footer {
+        height: 40px;
+        margin-top: 30px;
+
+    }
+
+    footer p {
+        padding-top: 10px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:576px) {
+
+    header {
+        font-size: 15px;
+        height: 80px;
+        display: block;
+        padding-top: 15px;
+        text-align: center;
+        padding: 0px 50px;
+    }
+
+    .banner {
+        padding: 30px 50px;
+        height: 550px;
+        display: block;
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    .banner h1 span {
+        font-size: 44px;
+    }
+
+    .banner aside {
+        padding: 10px 22px;
+        width: 370px;
+        margin-top: 40px;
+
+    }
+
+    .banner aside h2 {
+        font-size: larger;
+    }
+
+    .banner aside input[type],
+    .banner aside textarea,
+    .banner aside button {
+        margin: 5px;
+        height: 25px;
+    }
+
+    .feature {
+        padding: 30px 50px;
+    }
+
+    .feature div {
+        width: 145px;
+    }
+
+    .feature img {
+        width: 145px;
+        height: 130px;
+    }
+
+    .feature h2 {
+        font-size: medium;
+    }
+
+    .about {
+        padding: 15px 70px;
+
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    .about h2 {
+        font-size: larger;
+
+    }
+
+    .about button {
+        padding: 2px 40px;
+        margin: 15px;
+
+    }
+
+    .service {
+        padding: 0px 50px;
+    }
+
+    .upper .content {
+        padding: 20px 0px 20px 40px;
+        font-size: small;
+    }
+
+    .lower .content {
+        padding: 20px 40px 20px 0px;
+        font-size: small;
+    }
+
+    .service .image img {
+        height: 230px;
+        width: 235px;
+    }
+
+    footer {
+        height: 30px;
+        margin-top: 30px;
+
+    }
+
+    footer p {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+}
+
+/* media query section end */
