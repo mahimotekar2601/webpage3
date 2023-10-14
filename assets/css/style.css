@@ -441,6 +441,7 @@ footer p {
     .service {
         padding: 0px 50px;
     }
+    
 
     .upper .content {
         padding: 20px 0px 20px 40px;
@@ -469,4 +470,107 @@ footer p {
     }
 }
 
+@media screen and (max-width:425px) {
+
+    header {
+        font-size: 12px;
+        height: 45px;  
+    }
+
+    .banner {
+        height:auto;
+        
+    }
+
+    .banner h1 {
+        font-size: 20px;
+    }
+
+    .banner h1 span {
+        font-size: 33px;
+    }
+
+    .banner aside {
+        padding: 7px 15px;
+        width: 230px;
+        margin-top: 30px;
+
+    }
+
+    .banner aside h2 {
+        font-size:large;
+    }
+
+    .banner aside input[type],
+    .banner aside textarea,
+    .banner aside button {
+        height: 20px;
+    }
+
+    .feature {
+        display: block;
+        padding: 20px 50px;
+    }
+
+    .feature div {
+        width: auto;
+        margin-bottom: 10px;
+
+    }
+
+    .feature img {
+        width: 330px;
+    }
+
+    .feature h2 {
+        font-size:20px;
+        text-align: center;
+    }
+
+    .about {
+        padding: 10px 40px;
+
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+    .about button {
+        padding: 2px 30px;
+        margin: 10px;
+
+    }
+
+    .service {
+        padding: 0px 50px;
+    }
+    .upper {
+        display: block;
+    }
+
+    .upper .content {
+        padding:20px 0px;
+        font-size: small;
+    }
+    .lower {
+        display: block;
+    }
+
+    .lower .content {
+        padding:15px 0px;
+        font-size: small;
+    }
+
+    .service .image img {
+        height: 180px;
+        width: 330px;
+    }
+
+    footer {
+        margin-top:15px;
+
+    }
+}
+
 /* media query section end */
+
