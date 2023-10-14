@@ -441,7 +441,7 @@ footer p {
     .service {
         padding: 0px 50px;
     }
-    
+
 
     .upper .content {
         padding: 20px 0px 20px 40px;
@@ -474,12 +474,12 @@ footer p {
 
     header {
         font-size: 12px;
-        height: 45px;  
+        height: 45px;
     }
 
     .banner {
-        height:auto;
-        
+        height: auto;
+
     }
 
     .banner h1 {
@@ -498,7 +498,7 @@ footer p {
     }
 
     .banner aside h2 {
-        font-size:large;
+        font-size: large;
     }
 
     .banner aside input[type],
@@ -523,7 +523,7 @@ footer p {
     }
 
     .feature h2 {
-        font-size:20px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -535,6 +535,7 @@ footer p {
     .about p {
         font-size: 12px;
     }
+
     .about button {
         padding: 2px 30px;
         margin: 10px;
@@ -544,20 +545,22 @@ footer p {
     .service {
         padding: 0px 50px;
     }
+
     .upper {
         display: block;
     }
 
     .upper .content {
-        padding:20px 0px;
+        padding: 20px 0px;
         font-size: small;
     }
+
     .lower {
         display: block;
     }
 
     .lower .content {
-        padding:15px 0px;
+        padding: 15px 0px;
         font-size: small;
     }
 
@@ -567,10 +570,93 @@ footer p {
     }
 
     footer {
-        margin-top:15px;
+        margin-top: 15px;
 
     }
 }
 
-/* media query section end */
+@media screen and (max-width:320px) {
 
+    header {
+        font-size: 14px;
+        height: auto;
+        padding: 0px 50px;
+    }
+
+    .banner {
+        height: auto;
+
+    }
+
+    .banner h1 {
+        font-size: 17px;
+    }
+
+    .banner h1 span {
+        font-size: 30px;
+    }
+
+    .banner aside {
+        padding: 0px 12px;
+        width: 190px;
+        margin-top: 30px;
+        height: auto;
+        margin-left: 20px;
+
+    }
+
+    .banner aside h2 {
+        font-size: large;
+    }
+
+    .banner aside input[type],
+    .banner aside textarea,
+    .banner aside button {
+        height: 19px;
+    }
+
+    .feature img {
+        width: 230px;
+    }
+
+    .feature p {
+        text-align: justify;
+    }
+
+    .about {
+        padding: 10px 40px;
+
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+
+    .about button {
+        padding: 2px 30px;
+        margin: 10px;
+
+    }
+
+    .upper .content {
+        text-align: justify;
+        padding: 10px 0px;
+    }
+
+    .lower .content {
+        text-align: justify;
+        padding: 10px 0px;
+    }
+
+    .service .image img {
+        height: 170px;
+        width: 230px;
+    }
+
+
+    footer p {
+        font-size: 8px;
+    }
+}
+
+/* media query section end */
